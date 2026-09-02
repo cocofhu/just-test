@@ -1,6 +1,6 @@
 ---
 title: Hello Open Pages
-date: 2026-09-01 04:14:06
+date: 2026-09-02 11:25:40
 tags:
   - open-pages
 categories:
@@ -22,5 +22,12 @@ console.log("publish with hexo");
 
 > 预览来自真实的 `hexo generate`，不是前端 Markdown 渲染。
 
-<br />
+```mermaid
+graph TD
+    A[开始] --> B{条件判断}
+    B -->|Yes| C[执行操作A]
+    B -->|No| D[执行操作B]
+    C --> E[结束]
+    D --> E
+```
 

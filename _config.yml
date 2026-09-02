@@ -3,9 +3,9 @@ title: Open Pages
 subtitle: "Write, preview, publish"
 description: A Typora-like editor that publishes with Hexo to GitHub Pages.
 keywords:
-author: cocofhu
-avatar: /images/avatar.svg
-language: zh-CN
+author: ""
+avatar: ""
+language: en
 timezone: Asia/Shanghai
 url: "https://cocofhu.github.io/just-test"
 root: /just-test/
@@ -65,7 +65,7 @@ pagination_dir: page
 include:
 exclude:
 ignore:
-theme: next
+theme: landscape
 marked:
   dompurify: true
   sanitizeUrl: true
