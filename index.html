@@ -129,13 +129,18 @@ html { scrollbar-width: thin; scrollbar-color: rgba(28, 25, 21, 0.35) transparen
 <blockquote>
 <p>预览来自真实的 <code>hexo generate</code>，不是前端 Markdown 渲染。</p>
 </blockquote>
-
+<div class="mermaid">graph TD
+    A[开始] --&gt; B{条件判断}
+    B --&gt;|Yes| C[执行操作A]
+    B --&gt;|No| D[执行操作B]
+    C --&gt; E[结束]
+    D --&gt; E</div>
 
 
       
     </div>
     <footer class="article-footer">
-      <a data-url="https://cocofhu.github.io/just-test/2026/09/02/hello-open-pages/" data-id="cmtjv61ex00012irl8mhhc9jl" data-title="Hello Open Pages" class="article-share-link"><span class="fa fa-share">Share</span></a>
+      <a data-url="https://cocofhu.github.io/just-test/2026/09/02/hello-open-pages/" data-id="cmtjwz11y0001mtrlarw5anhk" data-title="Hello Open Pages" class="article-share-link"><span class="fa fa-share">Share</span></a>
       
       
       
@@ -251,5 +256,5 @@ html { scrollbar-width: thin; scrollbar-color: rgba(28, 25, 21, 0.35) transparen
 
 
   </div>
-</body>
+<script defer src="/just-test/_open-pages/mermaid.min.js"></script><script>window.addEventListener("DOMContentLoaded",function(){document.querySelectorAll("pre > code.language-mermaid,pre > code.mermaid").forEach(function(code){var pre=code.parentElement;pre.className="mermaid";pre.textContent=code.textContent});mermaid.initialize({startOnLoad:false,securityLevel:"strict",theme:"neutral"});mermaid.run({querySelector:".mermaid"})})</script></body>
 </html>
